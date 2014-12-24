@@ -1,15 +1,99 @@
-.page {
-
+/***********   RESET   ***********/
+* {
+    margin:0;
+    padding:0;
 }
-.hero {
-
+a {
+    text-decoration: none;
+    font-family: 'Tahoma';
 }
-.header {
-
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Times New Roman';
 }
+h1 {
+    font-size: 60px;
+}
+p {
+    font-family: 'Tahoma';
+}
+div.page {
+    background-color: lightgray;
+    text-align: center;
+    margin:0 auto;
+}
+section {
+    height: 100vh;
+    width:100%;
+}
+/***********   HEADER   ***********/
 header {
-
+    background-color: white;
+    margin:0 auto;
+    width: 100%;
+    min-height: 50px;
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    padding:5px;
 }
-header.nav {
-    
+div.logo {
+    float: left;
+}
+nav a {
+    margin: 40px; 
+}
+div.order {
+    position: absolute;
+    right:20px;
+}
+/***********   INTRO   ***********/
+div.hero {
+    background: url('house1.jpeg') no-repeat center;
+    background-size: 100%;
+    min-height: 400px;
+    padding:20px;
+    position: relative;
+}
+.intro h1 {
+    font-family: 'Arial';
+    font-weight: bold;
+    color: purple;
+    margin-top: 100px;
+}
+div.objective {
+    display: inline-block;
+    vertical-align: bottom;
+    min-height: 150px;
+    width: 180px;
+    margin: 80px;
+    background-color: orange;
+}
+.objective:nth-child(2){
+    width:210px;
+}
+/***********   TURNTIME   ***********/
+section.turntime {
+    background-color: purple;
+}
+/***********   HUMANVALUE   ***********/
+section.humanvalue {
+    background-color: green;
+}
+/***********   REALTORS   ***********/
+section.realtors {
+    background-color: yellow;
+}
+/***********   UPGRADE   ***********/
+section.upgrade {
+    background-color: red;
+}
+/***********   INSTITUTIONS   ***********/
+section.institutions {
+    background-color: turquoise;
+}
+/***********   FOOTER   ***********/
+footer {
+    min-height: 30px;
+    background-color: purple;
 }
