@@ -2,7 +2,7 @@
 * {
     margin:0;
     padding:0;
-    text-shadow:1px 1px 2px black;
+    text-shadow:2px 2px 3px black;
 }
 a {
     text-decoration: none;
@@ -18,7 +18,7 @@ p {
     font-family: 'Tahoma';
 }
 div.page {
-    background-color: lightgray;
+    background-color: #3B424C;
     text-align: center;
     margin:0 auto;
 }
@@ -28,7 +28,7 @@ section {
 }
 /***********   HEADER   ***********/
 header {
-    background-color: white;
+    background-color: lightgray;
     margin:0 auto;
     width: 100%;
     min-height: 50px;
@@ -42,22 +42,30 @@ div.logo {
     float: left;
 }
 nav a {
-    margin: 40px; 
+    margin: 40px;
+    color: #F05529;
+    font-size: 20px; 
 }
 div.order {
     position: absolute;
     right:20px;
 }
+div.order a {
+    color: #F05529;
+    font-size: 25px;
+}
 /***********   INTRO   ***********/
 section.intro {
     min-height: 100vh;
 }
-section.intro a {
+.ordernow a {
     color: white;
     font-size: 25px;
+    padding:5px;
+    border: 2px solid #F05529;
 }
 div.hero {
-    background: url('house1.jpeg') no-repeat center;
+    background: linear-gradient(45deg, rgba(200,200,200,0.1), rgba(200,200,200,0.2)),url('house1bw.jpg') no-repeat center;
     background-size: cover;
     min-height: 60%;
     padding:20px;
@@ -65,20 +73,28 @@ div.hero {
 }
 .intro article {
     margin:0 auto;
-    width: 700px;
-}
-.intro article span {
-    color: orange;
+    width: 780px;
 }
 .intro h1 {
     font-family: 'Arial';
     font-weight: bold;
     color: black;
     margin-top: 30px;
+    text-shadow:2px 2px 3px white;
+}
+.intro article h2 {
+    font-family: 'Arial';
+    font-weight: bold;
+    color: white;
+    margin-top: 30px;
+}
+#big {
+    color:#F05529;
+    font-size: 90px;
 }
 div.objectives {
     margin-bottom: 0;
-    background-color: lightgray;
+    background-color:#B3B3B3;
 }
 div.objective {
     display: inline-block;
@@ -86,8 +102,13 @@ div.objective {
     min-height: 150px;
     width: 180px;
     margin: 80px;
-    background-color: orange;
+    background-color: transparent;
     border-radius: 3%;
+
+}
+div.objective a {
+    font-size: 20px;
+    color: #F05529;
 }
 .objective:nth-child(2){
     width:230px;
@@ -99,11 +120,15 @@ div.ordernow {
 div.content {
     padding:80px;
     width: 40%;
-    background-color: white;
+    color: white;
+    background-color: #3B424C;
+}
+div.content h1 {
+    color:#F05529;
 }
 /***********   TURNTIME   ***********/
 section.turntime {
-    background-color: purple;
+    background-color: white;
     text-align: left;
 }
 section.turntime .content {
@@ -111,12 +136,12 @@ section.turntime .content {
 }
 /***********   HUMANVALUE   ***********/
 section.humanvalue {
-    background-color: green;
+    background-color: white;
     text-align: right
 }
 /***********   REALTORS   ***********/
 section.realtors {
-    background-color: yellow;
+    background-color: white;
     text-align: left;
 }
 section.realtors .content {
@@ -124,12 +149,12 @@ section.realtors .content {
 }
 /***********   UPGRADE   ***********/
 section.upgrade {
-    background-color: red;
+    background-color: white;
     text-align: right;
 }
 /***********   INSTITUTIONS   ***********/
 section.institutions {
-    background-color: turquoise;
+    background-color: white;
     text-align: left;
 }
 section.institutions .content {
@@ -137,6 +162,10 @@ section.institutions .content {
 }
 /***********   FOOTER   ***********/
 footer {
-    min-height: 150px;
-    background-color: white;
+    min-height: 50px;
+    background-color: #E38A38;
+    padding:10px;
 }
+
+
+
